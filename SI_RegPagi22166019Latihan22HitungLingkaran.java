@@ -16,15 +16,17 @@ import java.util.Scanner;
  */
 public class SI_RegPagi22166019Latihan22HitungLingkaran {
     public static void main(String[] args) {
+        // Scanner dan deklarasi variabel
         Scanner input = new Scanner (System.in);
         double phi = 3.14;
         
-        
+        // Memasukkan diameter lingkaran
         System.out.println("============Perhitungan Lingkaran===========");
         System.out.print("Masukkan nilai diameter lingkaran : ");
         double diameter= input.nextInt();
         System.out.println();
   
+        // Menampilkan hasil melalui rumus yang sudah ditetapkan
         System.out.println("============Hasil Perhitungan Lingkaran===========");
         double jarijari = diameter / 2;
         double luas = phi * jarijari*jarijari;
